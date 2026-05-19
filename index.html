@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kota & Hina's Wedding</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Hero Section（画像切り替え） -->
+    <section class="hero">
+        <div class="hero__slider">
+            <img class="hero__image hero__image--active" src="images/main-visual1.jpg" alt="Wedding Hero 1">
+            <img class="hero__image" src="images/main-visual2.jpg" alt="Wedding Hero 2">
+        </div>
+        <div class="hero__content">
+            <h1 class="hero__title">Kota & Hina</h1>
+            <p class="hero__date">2026.07.18 (Sat)</p>
+            <p class="hero__subtitle">Marine Tower Wedding</p>
+          </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown" id="countdown">
+        <h2 class="section__title">Wedding Day Countdown</h2>
+        <div class="countdown__display">
+            <div class="countdown__unit">
+                <span class="countdown__number" id="days">365</span>
+                <p class="countdown__label">Days</p>
+            </div>
+            <div class="countdown__unit">
+                <span class="countdown__number" id="hours">23</span>
+                <p class="countdown__label">Hours</p>
+            </div>
+            <div class="countdown__unit">
+                <span class="countdown__number" id="minutes">59</span>
+                <p class="countdown__label">Minutes</p>
+            </div>
+            <div class="countdown__unit">
+                <span class="countdown__number" id="seconds">59</span>
+                <p class="countdown__label">Seconds</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Q&A Section（新しい位置） -->
+    <section class="qa" id="qa">
+        <h2 class="section__title">Q&A</h2>
+        <div class="qa__list">
+            <div class="qa__item">
+                <button class="qa__button" aria-expanded="false">
+                    <span class="qa__question">最寄り駅からのアクセスを教えて。</span>
+                    <span class="qa__icon">+</span>
+                </button>
+                <div class="qa__answer">
+                <p>東急東横線「元町中華街駅」4番出口から徒歩1分です。<br>詳細は招待状リンクからご確認ください。</p>
+            </div>
+        </div>
+
+        <div class="qa__item">
+            <button class="qa__button" aria-expanded="false">
+                <span class="qa__question">駐車場はありますか？</span>
+                <span class="qa__icon">+</span>
+            </button>
+            <div class="qa__answer">
+                <p>式場敷地内および提携の駐車場はございません。<br>近隣パーキングをご利用ください。</p>
+            </div>
+        </div>
+
+        <div class="qa__item">
+            <button class="qa__button" aria-expanded="false">
+                <span class="qa__question">何日までなら回答の変更が可能？</span>
+                <span class="qa__icon">+</span>
+            </button>
+            <div class="qa__answer">
+                <p>6月26日まで変更が可能です。<br>回答送信後の変更はLINEでお問い合わせください。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp">
+        <h2 class="section__title">Invitation</h2>
+        <a href="https://forms.google.com/..." class="btn btn--primary">回答フォームへ</a>
+    </section>
+
+    <!-- Gallery Section（ダミー + 準備中） -->
+    <section class="gallery" id="gallery">
+        <h2 class="section__title">Coming soon...</h2>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Kota & Hina. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/hero-slider.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/qa-accordion.js"></script>
+</body>
+</html>
