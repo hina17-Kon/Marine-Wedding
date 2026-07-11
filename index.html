@@ -44,50 +44,67 @@
         </div>
     </section>
 
-    <!-- Q&A Section（新しい位置） -->
-    <section class="qa" id="qa">
-        <h2 class="section__title">Q&A</h2>
-        <div class="qa__list">
-            <div class="qa__item">
-                <button class="qa__button" aria-expanded="false">
-                    <span class="qa__question">最寄り駅からのアクセスを教えて。</span>
-                    <span class="qa__icon">+</span>
-                </button>
-                <div class="qa__answer">
-                <p>東急東横線「元町中華街駅」4番出口から徒歩1分です。<br>詳細は招待状リンクからご確認ください。</p>
-            </div>
-        </div>
+    <!-- Information Section -->
+    <section class="information" id="information">
+        <h2 class="section__title">Information</h2>
+        <div class="information__inner">
 
-        <div class="qa__item">
-            <button class="qa__button" aria-expanded="false">
-                <span class="qa__question">駐車場はありますか？</span>
-                <span class="qa__icon">+</span>
-            </button>
-            <div class="qa__answer">
-                <p>式場敷地内および提携の駐車場はございません。<br>近隣パーキングをご利用ください。</p>
+            <!-- Schedule -->
+            <div class="info__block">
+                <h3 class="info__heading">Schedule</h3>
+                <dl class="info__schedule">
+                    <div class="info__row">
+                        <dt>挙式</dt>
+                        <dd>受付 / 15:10-<br>開始 / 15:45-</dd>
+                    </div>
+                    <div class="info__row">
+                        <dt>披露宴</dt>
+                        <dd>開始 / 17:00-</dd>
+                    </div>
+                    </div>
+                </dl>
             </div>
-        </div>
 
-        <div class="qa__item">
-            <button class="qa__button" aria-expanded="false">
-                <span class="qa__question">何日までなら回答の変更が可能？</span>
-                <span class="qa__icon">+</span>
-            </button>
-            <div class="qa__answer">
-                <p>6月26日まで変更が可能です。<br>回答送信後の変更はLINEでお問い合わせください。</p>
+            <!-- Access -->
+            <div class="info__block">
+                <h3 class="info__heading">Access</h3>
+                <div class="info__access">
+                    <p class="info__label">式場</p>
+                    <p class="info__venue">Marine Tower Wedding
+                    </p>
+                    <p class="info__address">
+                        〒231-0023<br>
+                        神奈川県横浜市中区山下町14-1<br>
+                        （横浜マリンタワー 3階）
+                    </p>
+                    <p class="info__note">
+                        東急東横線「元町中華街駅」4番出口から徒歩1分
+                    </p>
+                    <p class="info__notice-text">
+                    ※敷地内および提携の駐車場はございません。<br>
+                    近隣パーキングをご利用ください。
+                    </p>            
+                </div>
             </div>
+            
         </div>
     </section>
 
     <!-- RSVP Section -->
     <section class="rsvp">
         <h2 class="section__title">Invitation</h2>
-        <a href="https://app.concept-marry.me/users/711315641890691/wedding_settings/950566513302480/guests/new?openExternalBrowser=1" class="btn btn--primary">回答フォームへ</a>
+        <p class="rsvp__note">
+            招待状回答へのご協力ありがとうございました。<br>
+            今後の変更は新郎新婦へ直接ご連絡ください。
+        </p>
     </section>
 
     <!-- Gallery Section（ダミー + 準備中） -->
     <section class="gallery" id="gallery">
-        <h2 class="section__title">Coming soon...</h2>
+        <h2 class="section__title">Gallery</h2>
+        <p class="gallery__info">
+        Coming soon...
+        </p>
     </section>
 
     <!-- Footer -->
@@ -98,6 +115,5 @@
     <!-- Scripts -->
     <script src="js/hero-slider.js"></script>
     <script src="js/countdown.js"></script>
-    <script src="js/qa-accordion.js"></script>
 </body>
 </html>
