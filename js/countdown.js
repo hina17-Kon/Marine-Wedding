@@ -38,12 +38,4 @@ setInterval(updateCountdown, 1000);
 // ページ読み込み時にも即時実行
 updateCountdown();
 
-/* =========================================
-   Q&A アコーディオン
-========================================= */
-document.querySelectorAll('.qa-question').forEach((question) => {
-    question.addEventListener('click', () => {
-        const item = question.parentElement;
-        item.classList.toggle('open');
-    });
-});
+
