@@ -65,7 +65,14 @@
     .countdown__unit {
         padding: 15px;
     }
+    
+    .information {
+        padding: 60px 16px;
+    }
 
+    .info__block {
+        padding: 24px 20px;
+    }
     .qa {
         padding: 60px 16px;
     }

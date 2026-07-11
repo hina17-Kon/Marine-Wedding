@@ -142,6 +142,90 @@ body {
     color: var(--color-text);
 }
 
+/* === Information Section === */
+.information {
+    padding: 100px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.information__inner {
+    display: grid;
+    gap: 30px;
+}
+
+.info__block {
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 32px;
+    background: white;
+}
+
+.info__heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.info__schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info__row {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;   /* 行全体を中央へ */
+    gap: 20px;
+}
+
+.info__row dt {
+    flex-shrink: 0;
+    width: 72px;
+    text-align: right;         /* ラベルを右寄せで揃える */
+    font-weight: 600;
+}
+
+.info__row dd {
+    line-height: 1.8;
+    text-align: left;          /* 時間は左寄せで揃える */
+}
+
+.info__access {
+    text-align: center;
+    line-height: 1.9;
+}
+
+.info__label {
+    font-size: 1.05rem;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.info__venue {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.info__address {
+    display: inline-block;   /* 幅を内容に合わせる */
+    text-align: left;        /* 中身は左揃え */
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.info__note {
+    font-size: 0.7rem;
+    color: var(--color-primary);
+}
+
 /* === Q&A Section === */
 .qa {
     padding: 100px 20px;
@@ -216,6 +300,35 @@ body {
     margin: 0 auto;
 }
 
+/* Information: 注意書き */
+.info__block--notice {
+    background: var(--color-light-bg);
+    border-style: dashed;
+}
+
+.info__notice-text {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.9;
+}
+
+/* 無効化ボタン */
+.btn--disabled {
+    background: #CCCCCC;
+    color: #FFFFFF;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Invitation 注記文 */
+.rsvp__note {
+    margin-top: 24px;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.9;
+}
+
 /* === Button Styles === */
 .btn {
     display: inline-block;
@@ -283,6 +396,10 @@ body {
     font-weight: 500;
 }
 
+.gallery__info {
+    text-align: center;
+    color: #888;
+}
 /* === Footer === */
 .footer {
     padding: 40px 20px;
